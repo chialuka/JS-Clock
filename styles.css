@@ -1,0 +1,32 @@
+.clock {
+  margin: 150px 500px 50px 550px;
+  border-radius: 200px;
+  padding: 150px;
+  border: 2px solid rgb(7, 13, 20);
+  background-image: url(clock2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hourhand {
+ height: 80px;
+ transform-origin: top;
+ border: 3px solid #080606;
+ position: absolute;
+ z-index: 1;
+}
+.minutehand {
+  height: 100px;
+  transform-origin: top;
+  border: 2.5px solid #080606;
+  position: absolute;
+  z-index: 1;
+ }
+ .secondhand {
+  height: 120px;
+  transform-origin: top;
+  border: 1.5px solid #080606;
+  position: absolute;
+  z-index: 1;
+ }
+ 
