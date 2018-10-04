@@ -1,0 +1,1 @@
+This is an Analog JS clock that runs real time.
