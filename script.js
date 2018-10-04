@@ -10,7 +10,7 @@ function getTime() {
   let hourT = timer.getHours();
   let minuteT = timer.getMinutes();
   let secondT = timer.getSeconds();
-  let trH = (hourT>= 12) ? (((hourT - 12) / 12 * 360) - 180):((hourT / 12 * 360) - 180)
+  let trH = (hourT>= 12) ? (((hourT - 12) / 12 * 360) + 180):((hourT / 12 * 360) + 180)
   let trM = (((minuteT/60) * 360) + 180);
   let trS = (((secondT/60) * 360) + 180);
   hourHand.style.transform = "rotate(" + trH + "deg)";
